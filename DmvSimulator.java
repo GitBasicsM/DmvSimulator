@@ -1,5 +1,23 @@
 package Assignment6;
 
+import java.util.Random;
+
 public class DmvSimulator {
-    
+    public static void main(String[] args) {
+        System.out.println("Welcome to the DMV!");
+
+        Random rand = new Random();
+        int userNumber = rand.nextInt(100) + 1;
+        System.out.println("Your number is " + userNumber + ". Please wait until your number is called.");
+
+        for (int i = userNumber + 1; i <= 100; i++) {
+            System.out.println("Now calling number: " + i);
+        }
+        for (int i = 1; i < userNumber; i++) {
+            System.out.println("Now calling number: " + i);
+        }
+
+        System.out.println("Now calling number: " + userNumber);
+        System.out.println("Sorry, you do not have the required paperwork.");
+    }
 }
