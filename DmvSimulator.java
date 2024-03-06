@@ -24,8 +24,8 @@
              System.out.println("Stupid you do not have the paperwork get out of here!");
             } 
         else{
-            System.out.println("Congratulations, you have all of the required paperwork and you are all set.");
-    }
+            System.out.println("Stupid you do not have the paperwork get out of here! HAHAHAHAHAHAHAHAHAAAAAA!");
+        }
            
         }
     }
